@@ -8,5 +8,7 @@ Obs.: a função len retorna a qtd
 de caracteres da str
 """
 variavel = 'Olá mundo'
-print(variavel[::-1]) # :-1 retorna o valor str ao contrário, pois começa a contagem do último caractere.
+print(variavel[::-1])
+print(len(variavel))#len entre parenteses, e a variavel para ser contada sob parenteses tambem. 
+# :-1 retorna o valor str ao contrário, pois começa a contagem do último caractere.
 #Contando da esquerda para a direita, 0 é sempre o primeiro caractere.
